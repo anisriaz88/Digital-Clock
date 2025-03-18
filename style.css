@@ -1,0 +1,22 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(./111.jpeg);
+            /* background-color: #000000; */
+            color: #fff;
+            font-family:  sans-serif;
+        }
+
+        #clock {
+            font-size: 3rem;
+            color: rgb(206, 203, 206);
+            font-weight: bold;
+            /* background: #000; */
+            padding: 10vw;
+            -webkit-backdrop-filter: blur(7.7px);
+            backdrop-filter: blur(7.7px);
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
